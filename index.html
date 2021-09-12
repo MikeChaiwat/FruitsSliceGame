@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Slice Game</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="score">
+            Score: <span id="scorevalue">0</span>
+        </div>
+        <div class="trialsleft" id="trialsleft">
+            
+        </div>
+        <div class="correct" id="correct">
+            Correct
+        </div>
+        <div class="wrong" id="wrong">
+            Try again
+        </div>
+        <div class="fruitscontainer" id="fruitscontainer">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div class="instruction">
+            Slice Fruits With Your Mouse
+        </div>
+       
+        <div class="startreset" id="startreset">
+            Start Game
+        </div>
+        
+        <div class="gameover" id="gameover">
+
+        </div>
+    </div>
+    <audio id="slicesound">
+        <source src="audio/knife.mp3">
+        <source src="audio/knife.ogg">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
